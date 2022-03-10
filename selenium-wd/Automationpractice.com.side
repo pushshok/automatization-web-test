@@ -1,0 +1,266 @@
+{
+  "id": "17fbaadf-7a4a-494f-a889-1b36da91d403",
+  "version": "2.0",
+  "name": "Automationpractice.com/",
+  "url": "http://automationpractice.com",
+  "tests": [{
+    "id": "f474ee7f-44a3-47f2-bcc4-418dc1cef306",
+    "name": "BUY CASUAL DRESSES",
+    "commands": [{
+      "id": "5f46d172-7537-4d07-aa57-957f5046d8bc",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8548e3a-a559-4ba2-9b77-f16ba8996b84",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1596x873",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3099eed-7ada-44be-b883-6c6de2521aad",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id=\"block_top_menu\"]/ul/li/a[contains(@title, \"Dresses\")]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f3d9fca-e4d7-452e-8b74-51ec59beeeda",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id=\"categories_block_left\"]//a[contains(text(), \"Casual\")]",
+      "targets": [
+        ["css=.sfHover:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Casual Dresses')])[2]", "xpath:link"],
+        ["xpath=//div[@id='block_top_menu']/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[@href='http://automationpractice.com/index.php?id_category=9&controller=category'])[2]", "xpath:href"],
+        ["xpath=//div[6]/ul/li[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20f50cd9-c2d2-45c7-8061-7651ecb8de2a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,390.64935302734375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6739697-6376-41cc-ae94-3e109563c8ff",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"center_column\"]//a[@title=\"Printed Dress\"]/img",
+      "targets": [
+        ["css=.product_img_link > .replace-2x", "css:finder"],
+        ["xpath=//img[@alt='Printed Dress']", "xpath:img"],
+        ["xpath=//div[@id='center_column']/ul/li/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//li/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cf7b267-26fc-4713-bffb-e8ccb36eece1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"add_to_cart\"]/button/span",
+      "targets": [
+        ["css=.exclusive > span", "css:finder"],
+        ["xpath=//p[@id='add_to_cart']/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c183d691-d88c-426d-a5e7-53c10727e5f1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"layer_cart\"]//a[@title=\"Proceed to checkout\"]/span",
+      "targets": [
+        ["css=.button-medium > span", "css:finder"],
+        ["xpath=//div[@id='layer_cart']/div/div[2]/div[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Proceed to checkout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "96c1c32d-e338-40fb-bf49-c2e0505edab8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"center_column\"]//a[@title=\"Proceed to checkout\"]/span",
+      "targets": [
+        ["css=.standard-checkout > span", "css:finder"],
+        ["xpath=//div[@id='center_column']/p[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa9ad273-ad1d-4998-b678-013861280016",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//textarea[@name=\"message\"]",
+      "targets": [
+        ["name=message", "name"],
+        ["css=#ordermsg > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//div[@id='ordermsg']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ced97540-6225-410b-a952-1ab44edb7dfa",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//textarea[@name=\"message\"]",
+      "targets": [
+        ["name=message", "name"],
+        ["css=#ordermsg > .form-control", "css:finder"],
+        ["xpath=//textarea[@name='message']", "xpath:attributes"],
+        ["xpath=//div[@id='ordermsg']/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Testing Test"
+    }, {
+      "id": "75837873-041d-40f2-96ca-902699bb42b2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//form/p/button[@type=\"submit\"]",
+      "targets": [
+        ["css=.button:nth-child(4) > span", "css:finder"],
+        ["xpath=//div[@id='center_column']/form/p/button/span", "xpath:idRelative"],
+        ["xpath=//p/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "047409aa-6eb9-4493-be20-49b31ce9c6ae",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,158.7532501220703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43116ec2-82e6-4503-ac27-9e26055077d0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"form\"]//label[@for=\"cgv\"]",
+      "targets": [
+        ["id=cgv", "id"],
+        ["name=cgv", "name"],
+        ["css=#cgv", "css:finder"],
+        ["xpath=//input[@id='cgv']", "xpath:attributes"],
+        ["xpath=//div[@id='uniform-cgv']/span/input", "xpath:idRelative"],
+        ["xpath=//p[2]/div/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9db220fa-478a-4b1e-b2fe-804017517c06",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//form/p/button[@type=\"submit\"]",
+      "targets": [
+        ["id=form", "id"],
+        ["name=carrier_area", "name"],
+        ["css=#form", "css:finder"],
+        ["xpath=//form[@id='form']", "xpath:attributes"],
+        ["xpath=//div[@id='carrier_area']/form", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5abd7be-7a02-40d1-b4eb-8a3e972ffdb0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"HOOK_PAYMENT\"]//a[@title=\"Pay by bank wire\"]",
+      "targets": [
+        ["css=.standard-checkout > span", "css:finder"],
+        ["xpath=//form[@id='form']/p/button/span", "xpath:idRelative"],
+        ["xpath=//p/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23f05f59-bca5-41a0-8e7d-49debeb8d131",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"cart_navigation\"]/button/span[contains(text(), \"confirm\")]",
+      "targets": [
+        ["css=#cart_navigation span", "css:finder"],
+        ["xpath=//p[@id='cart_navigation']/button/span", "xpath:idRelative"],
+        ["xpath=//p/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'I confirm my order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1220cd9c-2c81-4a08-9da4-10d1bde25069",
+    "name": "Test2",
+    "commands": [{
+      "id": "29fbe0ef-2ae2-444d-bfc0-bfefb77a87ce",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86f5749f-16cc-42e2-95d9-8fd895af1eb2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1596x873",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "347a6b09-b5ce-4393-94de-afe1d67acac3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#header > div:nth-child(3)",
+      "targets": [
+        ["css=#header > div:nth-child(3)", "css:finder"],
+        ["xpath=//header[@id='header']/div[3]", "xpath:idRelative"],
+        ["xpath=//header/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dd20c42-3d30-4d6b-9bb3-632d977950c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#header > div:nth-child(3)",
+      "targets": [
+        ["css=#header > div:nth-child(3)", "css:finder"],
+        ["xpath=//header[@id='header']/div[3]", "xpath:idRelative"],
+        ["xpath=//header/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ece3c3b0-f97f-4233-8e76-82aa8f421f7d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#header > div:nth-child(3)",
+      "targets": [
+        ["css=#header > div:nth-child(3)", "css:finder"],
+        ["xpath=//header[@id='header']/div[3]", "xpath:idRelative"],
+        ["xpath=//header/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7720d21-a70f-4a7e-84aa-d76cebcde8ec",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=#header > div:nth-child(3)",
+      "targets": [
+        ["css=#header > div:nth-child(3)", "css:finder"],
+        ["xpath=//header[@id='header']/div[3]", "xpath:idRelative"],
+        ["xpath=//header/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4c785ab8-08fa-4ad7-a7fb-9934fa3ac892",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f474ee7f-44a3-47f2-bcc4-418dc1cef306"]
+  }],
+  "urls": ["http://automationpractice.com/index.php", "http://automationpractice.com/"],
+  "plugins": []
+}
