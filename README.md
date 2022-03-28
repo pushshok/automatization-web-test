@@ -1,3 +1,5 @@
 # automatization-web-test repository for course "Web UI test automation in Java"
 
-##Add file Automationpractice.com.side for homework #1
+##Selenium - Add file Automationpractice.com.side for homework #1
+##Maven - Add maven project ui_tests for homework #2
+
