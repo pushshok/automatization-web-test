@@ -13,11 +13,6 @@ public class AppTest
     /**
      * Rigorous Test :-)
      */
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( 1 != 1 );
-    }
 
     @Test
     public void shouldAnswerWithTrue1()
@@ -25,13 +20,4 @@ public class AppTest
         assertTrue( true );
     }
 
-    @Test
-    public void shouldAnswerWithTrue2() {
-        assertNotNull(0);
-    }
-
-    @Test
-    public void shouldAnswerWithTrue3() {
-        System.out.println("Fourth test!");
-    }
 }
