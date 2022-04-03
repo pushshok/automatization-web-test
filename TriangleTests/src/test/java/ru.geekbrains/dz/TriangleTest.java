@@ -12,6 +12,22 @@ import java.util.stream.Stream;
 public class TriangleTest {
 
     @Nested
+    class WhenOneOrMoreParamsEqualNullTests {
+        @ParameterizedTest
+        @DisplayName("Normal triangle test for count square")
+        @MethodSource("triangleSidesDataProvider")
+        void triangleSquareTest(TriangleSquare triangle, Double square) {
+            Assertions.assertEquals(triangle.getSquare(), square);
+        }
+
+        private static Stream<Arguments> triangleSidesDataProvider() throws TriangleSideException {
+            return Stream.of(
+                    Arguments.of(new TriangleSquare(3, 4, 5), 6.0)
+            );
+        }
+    }
+
+    @Nested
     class WhenAllSidesEqualNullTests {
 
         @ParameterizedTest
@@ -42,23 +58,6 @@ public class TriangleTest {
         private static Stream<Arguments> triangleSidesOneLargerTwoDataProvider() throws TriangleSideException {
             return Stream.of(
                     Arguments.of(new TriangleSquare(2, 2, 5))
-            );
-        }
-
-    }
-
-    @Nested
-    class WhenOneOrMoreParamsEqualNullTests {
-        @ParameterizedTest
-        @DisplayName("Normal triangle test for count square")
-        @MethodSource("triangleSidesDataProvider")
-        void triangleSquareTest(TriangleSquare triangle, Double square) {
-            Assertions.assertEquals(triangle.getSquare(), square);
-        }
-
-        private static Stream<Arguments> triangleSidesDataProvider() throws TriangleSideException {
-            return Stream.of(
-                    Arguments.of(new TriangleSquare(3, 4, 5), 6.0)
             );
         }
     }

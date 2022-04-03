@@ -20,5 +20,27 @@ public class BoxTest {
             Assertions.assertThrows(NullPointerException.class, ()->box.shuffleBalls());
         }
 
+        @Test
+        void addBallTest() {
+            box.addBall();
+            Assertions.assertEquals(box.getBallsCount(), 1);
+        }
+
+        @Nested
+        class WhenOneBallTest {
+            @BeforeEach
+            void addBall() {
+                box.addBall();
+            }
+
+            @Test
+            void deleteBallTest() throws BoxAlreadyEmptyException {
+                box.deleteBall();
+                Assertions.assertEquals(box.getBallsCount(), 0);
+            }
+
+
+        }
+
     }
 }

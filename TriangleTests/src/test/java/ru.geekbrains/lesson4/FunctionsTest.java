@@ -3,6 +3,8 @@ package ru.geekbrains.lesson4;
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.stream.Stream;
 
@@ -10,6 +12,9 @@ import static ru.geekbrains.lesson4.Functions.isPalindrome;
 import static ru.geekbrains.lesson4.Functions.isPrime;
 
 public class FunctionsTest {
+
+    private static Logger logger = LoggerFactory.getLogger(FunctionsTest.class);
+
     @BeforeAll
     static void beforeAll() {
         System.out.println("Выполняется перед началом всех тестов, например, авторизация. Объявить драйвер, " +
@@ -27,6 +32,9 @@ public class FunctionsTest {
     void givenPrimeNumberWhenCallisPrimeThenTrue(){
         boolean result = isPrime(7);
         Assertions.assertTrue(result);
+        logger.info("info log");
+        logger.warn("warn log");
+        logger.debug("debug log");
     }
 
     @Test
@@ -79,7 +87,7 @@ public class FunctionsTest {
     private static Stream<Arguments> catAndAgeDataProvider() {
         return Stream.of(
                 Arguments.of(new Cat("Barsik", 10), 10),
-                Arguments.of(new Cat("Murzik", 10), 11)
+                Arguments.of(new Cat("Murzik", 12), 12)
 
         );
     }
