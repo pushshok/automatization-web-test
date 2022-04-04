@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99686300-29bc-43e2-9744-bac4d43478f8" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="26ywNJVceME4ehTCeePMcFhtXDd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/ru.geekbrains/dz" />
+      <recent name="$PROJECT_DIR$/src/test/java/ru.geekbrains/lesson4" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ru.geekbrains.lesson4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FunctionsTest">
+    <configuration name="TriangleSquare" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.dz.TriangleSquare" />
+      <module name="TriangleTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertJExampleTest" type="JUnit" factoryName="JUnit">
+      <module name="TriangleTests" />
+      <option name="PACKAGE_NAME" value="ru.geekbrains.lesson4" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.lesson4.AssertJExampleTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BoxTest" type="JUnit" factoryName="JUnit">
+      <module name="TriangleTests" />
+      <option name="PACKAGE_NAME" value="ru.geekbrains.lesson4" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.lesson4.BoxTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionsTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="TriangleTests" />
+      <option name="PACKAGE_NAME" value="ru.geekbrains.lesson4" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.lesson4.FunctionsTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TriangleTest" type="JUnit" factoryName="JUnit">
+      <module name="TriangleTests" />
+      <option name="PACKAGE_NAME" value="ru.geekbrains.dz" />
+      <option name="MAIN_CLASS_NAME" value="ru.geekbrains.dz.TriangleTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TriangleSquare" />
+      <item itemvalue="JUnit.TriangleTest" />
+      <item itemvalue="JUnit.FunctionsTest" />
+      <item itemvalue="JUnit.BoxTest" />
+      <item itemvalue="JUnit.AssertJExampleTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FunctionsTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99686300-29bc-43e2-9744-bac4d43478f8" name="Changes" comment="" />
+      <created>1648409095114</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648409095114</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

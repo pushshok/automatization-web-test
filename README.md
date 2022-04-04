@@ -3,3 +3,5 @@
 ##Selenium - Add file Automationpractice.com.side for homework #1
 ##Maven - Add maven project ui_tests for homework #2
 
+
+##Selenium Practice - Create class DemoqaTest
